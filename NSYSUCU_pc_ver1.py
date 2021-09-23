@@ -435,7 +435,7 @@ class NSYSUCU:
 
     def Progress(self):
         try:
-            self.Login('B083040012','bhchen11708')
+            self.Login(<your_student_id>,<your_password>)
         except:
             try:
                 if self.driver.find_element_by_xpath("//*[@id='main-message']/h1/span").text=="沒有網際網路連線":
